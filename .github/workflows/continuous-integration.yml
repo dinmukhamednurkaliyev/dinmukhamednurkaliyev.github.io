@@ -47,16 +47,18 @@ jobs:
               - 'server/**'
 
             configuration:
-              - 'package.json'
-              - 'bun.lock'
-              - 'nuxt.config.ts'
-              - 'tsconfig.json'
-              - 'eslint.config.mjs'
-              - '.prettierrc'
-              - '.prettierrc.*'
-              - '.prettierignore'
-              - '.editorconfig'
-              - '.github/workflows/continuous-integration.yml'
+            - 'package.json'
+            - 'bun.lock'
+            - 'nuxt.config.ts'
+            - 'tsconfig.json'
+            - 'eslint.config.mjs'
+            - '.prettierrc'
+            - '.prettierrc.*'
+            - '.prettierignore'
+            - '.editorconfig'
+            - 'mise.toml'
+            - '.mise.toml'
+            - '.github/workflows/*.yml'
 
       - name: Log Detected Changes
         run: |
