@@ -17,8 +17,6 @@
     "build": "bun run --workspaces --if-present build",
     "preview": "bun run --filter @dinmukhamednurkaliyev/web preview",
     "type-check": "bun run --workspaces type-check",
-    "test": "bun run --workspaces --if-present test",
-    "test:watch": "bun run --workspaces --parallel --if-present test:watch",
     "lint": "bun run lint:oxlint",
     "lint:oxlint": "oxlint apps packages",
     "lint:oxlint:fix": "oxlint apps packages --fix",
@@ -27,7 +25,7 @@
     "stylelint:fix": "bun run stylelint --fix",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
-    "check": "bun run type-check && bun run lint && bun run stylelint && bun run test && bun run format:check"
+    "check": "bun run type-check && bun run lint && bun run stylelint && bun run format:check"
   },
   "devDependencies": {
     "@types/node": "^26.4.1",

@@ -10,5 +10,5 @@ export default {
     },
   ],
 
-  ignoreFiles: ['**/dist/**', '**/coverage/**'],
+  ignoreFiles: ['**/dist/**'],
 } satisfies Config
