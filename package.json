@@ -23,7 +23,7 @@
     "lint:oxlint": "oxlint apps packages",
     "lint:oxlint:fix": "oxlint apps packages --fix",
     "lint:fix": "bun run lint:oxlint:fix",
-    "stylelint": "stylelint \"apps/web/source/**/*.{css,vue}\" --config apps/web/stylelint.config.ts",
+    "stylelint": "stylelint \"apps/web/source/**/*.{css,vue}\" --config stylelint.config.ts",
     "stylelint:fix": "bun run stylelint --fix",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
